@@ -13,7 +13,7 @@ namespace ReactCrudApi.Controllers
     {
         CRUD_React_AxiosEntities objEntity = new CRUD_React_AxiosEntities();
         [HttpGet]
-        [Route("GeUserDetails")]
+        [Route("GetUserDetails")]
         public IQueryable<UserDetails> GetEmployee()
         {
             try
